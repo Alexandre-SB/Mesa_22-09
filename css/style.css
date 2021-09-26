@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&family=Squada+One&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: rgba(104, 110, 18, 0.472);
+    font-family: 'Special Elite', cursive;
+    scroll-behavior: smooth;
+    overflow-x: hidden;    
+  }
+  
+  header {
+    height: 5rem;
+    border-bottom: 1px solid;
+    font-family: 'Special Elite', cursive;
+  }
+  
+  @media (max-width: 720px) {
+    header img {
+      display: none;
+    }
+  }
+  
+  .header {
+    background-color: rgba(104, 110, 18, 0.472);
+    max-width: 1000px;
+    height: 6rem;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .header nav {
+    
+    
+    display: flex;
+    gap: 1rem;
+    height: 5rem;
+  }
+  
+  .header nav a {
+    
+    margin-top: 1.75rem;
+    text-decoration: none;
+    color: black
+  }
+  
+  #banner {    
+    background: url(../img/556936.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    width: 100vw;
+    height: calc(100vh - 3rem);
+  }
+  
+  main div {
+    background-color: rgba(104, 110, 18, 0.472);
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 2rem;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 1rem;    
+  }
+  
+  @media (max-width: 768px) {    
+    main div {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  section p {    
+    font-family: 'Special Elite', cursive;
+    line-height: 1.5;
+    text-align: justify;
+  }
